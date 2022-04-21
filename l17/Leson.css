@@ -1,0 +1,10 @@
+.head{
+    text-align: center;
+    background-color: rgb(227, 227, 227);
+}
+.footer{
+background-color: rgb(227, 227, 227);
+}
+div[class *= "col"]{
+    padding-bottom: 20px;
+}

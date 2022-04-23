@@ -1,0 +1,22 @@
+.logo_png{
+    width: 50px;
+}
+.navbar{
+    background-color: aqua;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+img{
+    width: 100%;
+}
+.icons{
+    font-size: 2rem;
+}
+a{
+    color: black;
+}
+.sotseti{
+    background-color: aqua;
+    padding: 20px;
+}

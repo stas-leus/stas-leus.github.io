@@ -1,0 +1,15 @@
+ Шрифти:
+ 
+ <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+Ютуб:
+
+Майнкрафт
+src="https://www.youtube.com/embed/OGNePgWjDaE"
+
+Роблокс
+src="https://www.youtube.com/embed/MxaauDfZNIQ"
+
+Тетріс
+src="https://www.youtube.com/embed/4CiRxu9-Bv0" 

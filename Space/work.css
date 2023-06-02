@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Varela+Round&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.img1 {
+    height: 100vh;
+    max-width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: rgba(0, 10, 20, 1);
+    background-size: cover;
+    image-rendering: pixelated;
+    font-family: sans-serif;
+    position: relative;
+    /* z-index: 1; */
+}
+
+
+.img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+}
+.sun{
+    width: 350px;
+    height: 350px;
+    left: 50%;
+    top: 50px;
+}
+
+h1 {
+    color: bisque;
+}
+
+#space {
+    width: 100%;
+    height: 100vh;
+
+}
+
+#w {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#warp {
+    position: absolute;
+    z-index: -99;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 20px auto;
+    color: rgba(209, 255, 255, 1);
+    border: 2px solid;
+    padding: 1em;
+    width: 5em;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.8)
+}
+.shadow{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.447);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TEXT{
+    color: white;
+    font-size: 6rem;
+    font-family: 'Roboto Slab', serif;
+}
+.planet{
+    padding: 0;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+}
+.footer_1{
+    color: #D9DAFF;
+    align-items: center;
+}
+.footer_2{
+    color: #D9DAFF;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 30px;
+    font-size: 50px;
+}
+i{
+    margin: 30px;
+}
+.AA{
+    color: #D9DAFF;
+}
+.card-main{
+    background-color: #A9AABC;
+}
+
+/* card */
+.content{
+    margin: 10px;
+    margin-bottom: 25px;
+    transition: 0.5s ease-in-out;
+    padding: 3.5px;
+    background-color: black;
+    color: #D9DAFF;
+    text-align: center;
+}
+.content:hover{
+    background-position: right bottom;
+    transform: scale(1.1);
+    border-radius: 13px;
+    transform: translateY(-20px);
+    /* box-shadow: 0px 5px 20px rgb(9, 16, 40); */
+}
+
+/* keyframes ________________________________________________________*/
+.content:hover{
+    animation-name: N;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: initial;
+}
+@keyframes N {
+    0%{box-shadow: 0px 0px 20px #1a1e4b;}
+    10%{box-shadow: 0px 0px 20px #2b3781;}
+    20%{box-shadow: 0px 0px 20px #384ebe;}
+    30%{box-shadow: 0px 0px 20px #4a7cff;}
+    40%{box-shadow: 0px 0px 20px #79cdf9;}
+    50%{box-shadow: 0px 0px 20px #98fafb;}
+    60%{box-shadow: 0px 0px 20px #79cdf9;}
+    70%{box-shadow: 0px 0px 20px #4a7cff;}
+    80%{box-shadow: 0px 0px 20px #384ebe;}
+    90%{box-shadow: 0px 0px 20px #2b3781;}
+    100%{box-shadow: 0px 0px 20px #1a1e4b;}
+}
+/* keyframes ____________________________________________________________*/
+
+/* text */
+.container-text{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    background-color: #A9AABC;
+}
+.A{
+    text-decoration: none;
+}
+.sun-sustem{
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
